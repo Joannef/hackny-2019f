@@ -8,19 +8,6 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.post("/books", (req, res) => {
-  console.log('post:books!', req.body);
-
-  const newBook = req.body;
-
-  // save object to database (don't forget the id)
-  newBook.id = booksThatReallyShouldBeInADb.length;
-  booksThatReallyShouldBeInADb.push(newBook); //our database aka our array.
-  // response with new object 
-
-  res.json(newBook);
-});
-
 app.post("/picture", (req, res) => {
   console.log('Server info', req.body);
 
