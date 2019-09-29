@@ -1,6 +1,6 @@
-#HACKNY-F2019
-#ASL-Translator
-#Team members: Jiale Qiu, Jagnaudh Bhatia, Joanne Fung, Xuejin Gao
+# HACKNY-F2019
+## ASL-Translator
+### Team members: Jiale Qiu, Jagnaudh Bhatia, Joanne Fung, Xuejin Gao
 
 ## Inspiration
 Inspiration for our project was to find a user-friendly and intuitive way for people to comprehend and translate American Sign Language to English words
